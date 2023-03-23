@@ -32,7 +32,7 @@ export default function Pokemon() {
       )}
       {data && data.error && (
         <div>
-          <h1>{data.erorr}</h1>
+          <h1>{data.error}</h1>
         </div>
       )}
     </div>
